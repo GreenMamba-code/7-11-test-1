@@ -1,0 +1,32 @@
+A 7/11 has recently opened up in the area which sells various fruits. The problem is that they have no computer system that records the check-out process. This is a problem and they need assistance. 
+They have politely requested that YOU write them a small application that can take care of this issue.
+List of fruit and their price per 1 item:
+Banana: R12.48
+Apple: R9.00
+Kiwi: R13
+Mango: R14
+Grapes: R6.07
+Oranges: R45.23
+Peaches: R54.00
+Plums: R24.21
+
+Question 1:
+The owners need to record all their fruit and prices into the computer program. Create a python dictionary that records the fruit type and their price based on the list provided.
+
+Question 2:
+The owners requested a function is created that allows them to query a specific fruits price. This program needs to ask them a question in regards to what fruit they want to know about and return its price. If an invalid price is provided, an error must be returned. Call this function “fruit_query”. 
+
+Question 3:
+The owners have requested another function is created which allows them to change the price of a specific fruit. This program needs to ask them a question in regards to what fruit they want to change – it needs to accept the new price and store it was a FLOAT type as well as have a confirmation feature. (Type “yes” to confirm). The function must return if the change was successful or not. Call this function “fruit_price_update”.
+
+Question 4: 
+The owners need more help! They need a function that dynamically calculates the total value of their fruit dictionary (takes all the dictionary values (prices)) and returns back the total amount in a FLOAT type. Call this function “stock_price_total”.
+
+Question 5:
+A lady has just walked in and has purchased 2 fruits. A mango and banana, dynamically based on the name of the fruit – calculate the total price she is eligible to pay in a FLOAT type. Call this function “checkout”.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Your code should return correctly and not output any errors.
+
+Question 6:
+Submit a pull request to the GitHub repo you collect this test from. Submit your code including your functions for collaborative review.
